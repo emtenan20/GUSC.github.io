@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Georgetown University Saudi Club</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            background-color: #4B0082; /* Indigo */
+            color: #fff;
+            padding: 10px 0;
+            width: 100%;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #6A5ACD; /* Slate Blue */
+            width: 100%;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            position: relative;
+        }
+        nav a:hover, .dropdown:hover .dropbtn {
+            background-color: #483D8B; /* Dark Slate Blue */
+        }
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            text-align: center;
+        }
+        footer {
+            background-color: #4B0082; /* Indigo */
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #6A5ACD;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        .dropdown-content a:hover {
+            background-color: #483D8B;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Georgetown University Saudi Club</h1>
+</header>
+
+<nav>
+    <a href="#welcome">Welcome</a>
+    <a href="#events">Events</a>
+    <a href="#contact">Contact Us</a>
+    <div class="dropdown">
+        <a href="#" class="dropbtn">More</a>
+        <div class="dropdown-content">
+            <a href="#info">About the Club</a>
+            <a href="#history">History of Events</a>
+            <a href="#magazine">Club Magazine</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <section id="welcome">
+        <h2>Welcome to Georgetown University Saudi Club</h2>
+        <p>
+            The Georgetown University Saudi Club is dedicated to serving the alumni community in Saudi Arabia 
+            and promoting Georgetown University’s programs in the region. Our members include graduates from 
+            various Georgetown schools, representing a diverse range of private and public sectors.
+        </p>
+        <p>
+            The club aims to encourage lifelong learning, intellectual enrichment, professional growth, 
+            and social interaction.
+        </p>
+    </section>
+
+    <section id="events">
+        <h2>Events</h2>
+        <h3>Upcoming Events</h3>
+        <ul>
+            <li>Speaker Event - Date: TBD</li>
+            <li>Networking Event - Date: TBD</li>
+        </ul>
+        <h3>Past Events</h3>
+        <ul>
+            <li>Annual Gala - Date: Past</li>
+            <li>Workshop on Leadership - Date: Past</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@georgetownsaudi.org</p>
+        <p>Phone: +966 123 456 789</p>
+    </section>
+
+    <section id="info">
+        <h2>About the Club</h2>
+        <p>Information about the club's mission and activities.</p>
+    </section>
+
+    <section id="history">
+        <h2>History of Events</h2>
+        <p>A detailed history of past events organized by the club.</p>
+    </section>
+
+    <section id="magazine">
+        <h2>Club Magazine</h2>
+        <p>Latest edition of the club's magazine featuring articles and news.</p>
+    </section>
+</div>
+
+<footer>
+    <p>Powered by Hassan AL-nafisah</p>
+</footer>
+
+</body>
+</html>
